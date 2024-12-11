@@ -26,7 +26,7 @@ header {
 }
 
 .content-frame {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -37,6 +37,7 @@ header {
     font-family: 'Roboto Slab', serif;
     margin-bottom: 15px;
     color: #ffffff; 
+    padding-left: 35px;
 }
 
 h1, h2 {
@@ -63,8 +64,9 @@ p {
 .services-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 20px;
     max-width: 100%; 
+    padding-left: 25px;
 }
 
 .service {
@@ -73,8 +75,8 @@ p {
 }
 
 .service img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -85,18 +87,10 @@ p {
 }
 
 
-.map-container {
-    flex-shrink: 0;
-    max-width: 30%; 
-    display: flex;
-    justify-content: left; 
-    align-items: flex-start; 
-}
 
 .map-link img {
     width: 100%; 
-    height: auto;
-    max-height: 200px; 
+    max-height: 100%; 
     border: 1px solid #ab3c3c;
     border-radius: 8px;
 }
